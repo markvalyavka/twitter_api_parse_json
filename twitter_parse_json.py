@@ -35,8 +35,6 @@ def get_relevant_tweets_data(search_query, number_of_tweets):
     data = connection.read().decode()
     tweet_js = json.loads(data)
 
-    headers = dict(connection.getheaders())
-    print('Remaining', headers['x-rate-limit-remaining'])
 
     return tweet_js
 
