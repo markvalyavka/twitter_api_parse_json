@@ -5,3 +5,6 @@ P.S hidden.py should be added in order for program to work
 
 # Example Run
 
+![](images/example1.png)
+![](images/example2.png)
+![](images/example3.png)
